@@ -236,6 +236,11 @@ html{
     position: relative;
     text-align: center;
 }
+@media (max-width: 767px){
+    .services .services-content .col .image{
+        display: none;
+    }
+}
 .services .services-content .col .image img{
     width: 260px;
 }
